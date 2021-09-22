@@ -6,6 +6,7 @@ let
    callPackage = pkgs.lib.callPackageWith (pkgs // self);                               
                                                                                    
    self = {                                                                             
-      lammps = callPackage ./pkgs/lammps { };                                            
+      lammps = callPackage ./pkgs/lammps { };    
+      sc-hello = callPackage ./pkgs/sc-hello { }; 
    };                                                                                   
 in self 
