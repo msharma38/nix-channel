@@ -8,5 +8,6 @@ let
    self = {                                                                             
       lammps = callPackage ./pkgs/lammps { };    
       hello-test = callPackage ./pkgs/hello-test { }; 
+      test = callPackage ./pkgs/test { }; 
    };                                                                                   
 in self 
