@@ -7,6 +7,6 @@ let
                                                                                    
    self = {                                                                             
       lammps = callPackage ./pkgs/lammps { };    
-      sc-hello = callPackage ./pkgs/sc-hello { }; 
+      hello-test = callPackage ./pkgs/hello-test { }; 
    };                                                                                   
 in self 
